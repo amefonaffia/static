@@ -2,7 +2,7 @@
 A Udacity project to create and run an instance on AWS, configure Jenkins, and create a pipeline to deploy a static website on S3.
 
 ## Known Issues with Jenkins install when following guide on AWS
-Key from jenkins site is not properly added, thus when running `sudo apt update` it produces GPG error. Please note the PUB keys in the error.
+Key from jenkins site is not properly added, thus when running `sudo apt update` it produces GPG error. Please note the PUB key in the error.
 
 To fix the GPG error, run the following commands;
 * Start by importing the GPG keys:
