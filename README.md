@@ -11,7 +11,7 @@ To fix the GPG error, run the following commands;
 * Add to sources list
 
 `sudo sh -c 'echo deb https://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'`
-* Now use this key in the command below. Replace <????> with the PUB key in your GPG error message
+* Now use this key in the command below. Replace `<????>` with the PUB key in your GPG error message
 
 `sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys ????`
 * Re-run update command
